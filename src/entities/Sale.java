@@ -56,7 +56,7 @@ public class Sale {
         this.month = month;
     }
 
-    public double averagePrice() {
+    public Double averagePrice() {
         return total / items;
     }
 
